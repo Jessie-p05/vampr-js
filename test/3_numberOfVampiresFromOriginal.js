@@ -18,11 +18,12 @@ describe("Vampire", function() {
       offspring2 = new Vampire();
       offspring3 = new Vampire();
       offspring4 = new Vampire();
-
       rootVampire.addOffspring(offspring1);
       offspring1.addOffspring(offspring2);
       offspring2.addOffspring(offspring3);
       offspring3.addOffspring(offspring4);
+      // console.log(rootVampire)
+      // console.log(offspring1)
     });
 
     it("root should be 0 from original", () => {
